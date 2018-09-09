@@ -1,0 +1,8 @@
+FROM ubuntu:18.10
+
+RUN apt-get update && \
+	apt-get --assume-yes install default-jdk curl wget && \
+	wget http://mirrors.wuchna.com/apachemirror/tomcat/tomcat-9/v9.0.11/bin/apache-tomcat-9.0.11.tar.gz && \
+	tar -xvf apache-tomcat-9.0.11.tar.gz
+
+ENV CATALINA_HOME /apache-tomcat-9.0.11
