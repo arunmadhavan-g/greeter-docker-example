@@ -14,3 +14,4 @@ The source code consists of 2 docker files
 2. Dockerfile, that copies the war file built through gradle into the webapps folder of tomcat and starts the server. 
 
 
+Watch the video @ https://www.youtube.com/watch?v=LBISwcChq2c
